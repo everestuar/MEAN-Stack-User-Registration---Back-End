@@ -1,10 +1,10 @@
 {
     "development": {
-        "PORT": 3000,
-        "MONGODB_URI": "mongodb://localhost:27017/MEANStackDB"
+        "PORT": 8080,
+        "MONGODB_URI": "mongodb://ever:G1MB1xCEOvkyfKG6@meanstack.cluster-cpq3kh8kxkjv.us-east-1.docdb.amazonaws.com:27017/MeanStackDB?replicaSet=rs0&readPreference=secondaryPreferred&retryWrites=false"
     },
     "production": {
-        "PORT": 80,
-        "MONGODB_URI": "mongodb://xxxxx/DB_Name"
+        "PORT": 8080,
+        "MONGODB_URI": "mongodb+srv://ever:G1MB1xCEOvkyfKG6@meanstack.vtaua.mongodb.net/MeanStackDB?retryWrites=true&w=majority"
     }
 }
